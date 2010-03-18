@@ -5,7 +5,7 @@ use Module::Build;
 my $builder = Module::Build->new(
     module_name         => 'User::AccountChecker',
     license             => 'perl',
-    dist_author         => q{Eric Villard <eric.villard@grenoble-em.com>},
+    dist_author         => q{Eric Villard <evi@cpan.org>},
     dist_version_from   => 'lib/User/AccountChecker.pm',
     build_requires => {
         'Test::More' => 0,

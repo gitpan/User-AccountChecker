@@ -1,7 +1,7 @@
 ---
 abstract: 'I<Tools for user account checking in an Unix environment>'
 author:
-  - 'Eric Villard <eric.villard@grenoble-em.com>'
+  - 'Eric Villard <evi@cpan.org>'
 build_requires:
   Test::More: 0
 configure_requires:
@@ -15,7 +15,7 @@ name: User-AccountChecker
 provides:
   User::AccountChecker:
     file: lib/User/AccountChecker.pm
-    version: 0.01
+    version: 0.02
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02

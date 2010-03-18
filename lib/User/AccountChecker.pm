@@ -11,11 +11,11 @@ User::AccountChecker - I<Tools for user account checking in an Unix environment>
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 =head1 SYNOPSIS
@@ -44,7 +44,7 @@ A little code snippet :
     # otherwise, $shellcommand == "sudo cat /etc/shadow", and
     # $ENV{'SUDO_ASKPASS'} if ssh-askpass is installed
     
-    # force a script to be run as root
+    # force a script to be runned as root
     $uuac->runasroot(@ARGV);
     # $uuac->isroot() should be true
     
@@ -177,7 +177,7 @@ sub shellrootcmd {
 
 C<$object-E<gt>runasroot($commandargs)>
 
-I<Forces a script to be run as root>
+I<Forces a script to be runned as root>
 
 =over 4
 
@@ -202,7 +202,7 @@ sub runasroot {
 
 =head1 AUTHOR
 
-Eric Villard, C<< <eric.villard at grenoble-em.com> >>
+Eric Villard, C<< <evi at cpan.org> >>
 
 =head1 BUGS
 
